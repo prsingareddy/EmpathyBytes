@@ -1,2 +1,2 @@
-# EmpathyBytes
-This is VR app for the Georgia Tech VIP Empathy Bytes
+# Empathy Bytes
+Empathy Bytes is a Georgia Tech VIP project that aims to create a digital archive of a Georgia Tech community of choice. For the Fall 2020 semester our community of choice was the maker space communities. Members of the Empathy Bytes VIP team interviewed those from the Invention Studio and The Hive makerspaces. This aspect of the project was to make a VR/AR app that showcased the makerspaces. This semester we were able to complete the framework of the app and have pages for a podcast section, and about us section, and a section about our interviews. In the following semesters our goal is to implement the AR feature for this app. 
