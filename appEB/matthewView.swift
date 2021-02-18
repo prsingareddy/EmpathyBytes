@@ -10,7 +10,8 @@ import SwiftUI
 struct matthewView: View {
     @State private var showDetails = false
     var body: some View {
-        
+        //this view represents the interview view for Matthew Dick and plays the sound file
+
         VStack {
             Text("Matthew Dick on being a Prototyping Instructor")
                 .font(.custom("Georgia", size: 30))
