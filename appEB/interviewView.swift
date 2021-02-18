@@ -12,7 +12,7 @@ struct interviewView: View {
     @Environment(\.presentationMode) var presentation
     
     var body: some View {
-        NavigationView {
+       
             
             VStack {
                 HStack {
@@ -41,8 +41,8 @@ struct interviewView: View {
                     }
  
             }
-            }
-            .navigationBarBackButtonHidden(true)
+            
+            
         
         
             }
