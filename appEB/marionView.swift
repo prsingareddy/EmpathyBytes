@@ -42,7 +42,7 @@ struct marionView: View {
                                 
                         }
         }
-        .navigationBarBackButtonHidden(true)
+        
     }
 }
 
