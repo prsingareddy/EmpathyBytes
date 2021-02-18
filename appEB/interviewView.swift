@@ -7,7 +7,7 @@
 import SwiftUI
 import UIKit
 
-
+//this view represents the scroll page of interviews available to watch
 struct interviewView: View {
     @Environment(\.presentationMode) var presentation
     
@@ -23,12 +23,12 @@ struct interviewView: View {
                         Text("Interviews")
                             .font(.custom("Georgia", size: 30))
                             .fontWeight(.black)
-                    }
+                    } //interview header
                     
                     Spacer()
                 }
                 .padding([.horizontal])
-
+                //contains navigations to each interview, using cardview class that specifies the components of each card as image, date, title, and author
                 ScrollView {
                                         NavigationLink(destination: matthewView()) {
                         cardView(image: "invention", category: "April 30, 2020", heading: "Matthew Dick on being a Prototyping Instructor", author:"by Jaewon Drake")
