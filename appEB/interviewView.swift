@@ -42,7 +42,7 @@ struct interviewView: View {
  
             }
             }
-            .navigationBarBackButtonHidden(true)
+           
         
         
             }
