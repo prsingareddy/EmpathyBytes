@@ -42,7 +42,7 @@ struct matthewView: View {
                                 
                         }
         }
-        .navigationBarBackButtonHidden(true)
+        
         
         
 
