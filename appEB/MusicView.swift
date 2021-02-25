@@ -92,7 +92,7 @@ struct MusicPlayer : View {
             HStack(spacing: UIScreen.main.bounds.width / 5 - 30){
                 
                      NavigationLink(destination: marionView()) {
-                        Image(systemName: "forward.fill").font(.title)
+                        Image(systemName: "backward.fill").font(.title)
                        }
                 
                 
