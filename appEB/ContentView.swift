@@ -40,7 +40,7 @@ struct ContentView: View {
                                         .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
                                 )
                         }
-                        NavigationLink(destination: podcastView()) {
+                        NavigationLink(destination: musicView()) {
                             Text("Podcasts")
                                 .fontWeight(.bold)
                                 .font(.custom("Georgia", size: 25))
