@@ -91,6 +91,10 @@ struct MusicPlayer : View {
             
             HStack(spacing: UIScreen.main.bounds.width / 5 - 30){
                 
+                     NavigationLink(destination: marionView()) {
+                        Image(systemName: "forward.fill").font(.title)
+                       }
+                
                 
                     Button(action: { //this button goes back 15 seconds in the audio
                         
@@ -143,6 +147,9 @@ struct MusicPlayer : View {
                         Image(systemName: "goforward.15").font(.title)
                         
                     }
+                NavigationLink(destination: georgiaView()) {
+                    Image(systemName: "forward.fill").font(.title)
+                }
                 
             }.padding(.top,25)
             .foregroundColor(.black)
